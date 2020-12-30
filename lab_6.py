@@ -237,7 +237,6 @@ while True: #бесконечный цикл
                 m = countlist.index(max(countlist))
                 print('Полученный список: ', end='')
                 print(', '.join(spisok[firstlist[m]:lastlist[m]]))
-                #print(spisok[firstlist[m]:lastlist[m]])
             
     if c == '7': #пункт 7
         if len(spisok) == 0:
